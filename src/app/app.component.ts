@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-todo-project';
+  constructor() {
+  //  setTimeout(() => {
+  //    this.title = "Blue Title";
+  //  }, 2000);
+  }
+  
 }
